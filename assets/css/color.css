@@ -1,0 +1,237 @@
+#banner,.banner-outer .caption .holder form button[type="submit"]:hover,.browse-job-section,.user-option-col a.login-round,.user-option-col .dropdown-menu>li>a:hover,.user-option-col .dropdown-menu>li>a:focus,.user-option-col a.btn-login,.theme-style-1 a.btn-style-1,.popular-categories .box:hover,.popular-categories .box:hover,.btn-color-2,.sidebar .box .text-box a.btn-apply,.call-action-section,.price-table .box strong.amount:before,.price-table .box strong.amount:after,#footer form input[type="submit"],#cp_side-menu,.banner-2,#wrapper .header-2.cp_sticky,.process-section .icon-box,.btn-bg-color-1,.header-4,#inner-banner,.pagination-box .pager li>a:hover,.pagination-box .pager li>a:focus,.pagination-box .pager li.active a,.post-box .owl-next:hover,.post-box .owl-prev:hover,.post-section .comment-form form input[type="submit"],.signup-section .holder input[type="submit"],.upload-box .btn-file,.signup-section .holder b,.contact-form input[type="Submit"],.address-box address .fa,.candidates-search-bar form,.btn-row a.resume,.btn-row a.login,.summary-box .col:before,.progress-box .progress-bar span,.alphabets-row .col span,.alphabets-row .col:before,.icon-colo-1,.resum-form .accordion_cp,.resum-form input[type="submit"],.navbar-toggle{background-color:#BF070E;}#nav li:hover>a,.banner-outer .caption .holder form button[type="submit"],.banner-outer .caption .holder .btn-row a .fa,.cp_side-menu a .fa,.user-option-col a .fa,#content-area .box .text-col a.text .fa,#content-area .box strong.price .fa,.sidebar .box .text-box h4 a,.sidebar .box .text-box a.text .fa,.sidebar .box .text-box strong.price .fa,#content-area a.load-more .fa,.price-table .box h4,.price-table .box strong.amount sub,.testimonials-section .owl-prev:hover:before,.testimonials-section .owl-next:hover:before,.post-box .text-box strong.date .fa,.post-box .text-box strong.name,.post-box .text-box:hover h4 a,#footer .box ul li a,.bottom-row strong.copyrights a:hover,#content-area .box:hover h4 a,#popular-job-slider .owl-next:before,#popular-job-slider .owl-prev:before,.sidebar-jobs ul li a,.sidebar-jobs ul li span .fa,.pagination-box .pager li>a,.pagination-box .pager li>span,.sidebar .box .recent-post .text-box a .fa,.sidebar .box .recent-post .text-area a .fa,.sidebar .box .recent-post ul li:hover strong a,.sidebar .box .archives-box ul li a:hover,.post-box blockquote p,.testimonials-style-3 .box p,.testimonials-style-3 .col p,.input-box .fa,.check-box strong a:hover,.signup-section .holder em,.signup-section .holder em a,.signup-section .holder a.login,.candidates-search-bar form button[type="submit"],.resumes-section .box .text-box h4,.resumes-content .box .text-box strong .fa,.resumes-content .box .text-box span.price .fa,.tags a,.resumes-section a.load-more .fa,.related-people .text-box strong.name a,.related-people .text-box span .fa,.summary-box strong.title,.popular-companies .owl-next:before,.popular-companies .owl-prev:before,.alphabets-row a:hover,.alphabets a:hover,.theme-style-1 .account-option a.btn-style-1 .fa,#content-area .box .text-col p em,.job-detail ul li .fa{color:#ffc107;}#nav li a:before,#nav li a:after,.testimonials-section .owl-prev:hover:before,.testimonials-section .owl-next:hover:before,.summary-box .col,.resume-process .option-box .icon-colo-1:before{border-color:#1b8af3;}.btn-bg-color-1:before{border-color:transparent transparent #1b8af3 transparent;}.signup-section .holder span:before{border-color:#1b8af3 transparent transparent transparent;}.progress-box .progress-bar span:before{border-color:transparent #1b8af3 transparent transparent;}
+/*
+*/
+#content-area .box  a.btn-1{
+	float: right;
+    color:#f44336;
+    background:#fff;
+    border: 1px solid #eaeaea;
+    
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    z-index: 1;
+}
+#content-area .box a.btn-1:hover{
+	color: #000;
+}
+#content-area .box a.btn-1:hover:before{
+	opacity: 1;
+    width: 100%;
+    left: 0;
+    transform: rotate(0) scaleY(7);
+}
+#content-area .box a.btn-1:before
+{
+	content: '';
+    position: absolute;
+    left: -12px;
+    top: -3px;
+    width: 35%;
+    height: 100%;
+    background-color: #ffc107;
+    z-index: -1;
+    transform: rotate(-33deg) scaleY(1);
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    opacity: 0;
+}
+#content-area h2, .resumes-content h2{
+	font: 500 15px/18px 'Lato', sans-serif;
+	text-transform: uppercase; overflow: hidden;
+	background:#fff;
+	margin: 0px 0 10px 0;
+    padding: 10px 10px 10px 20px;
+}
+#content-area h2:after,.resumes-content h2:after{
+	position: relative;
+    left: 18px;
+    content: "";
+    display: inline-block;
+    width: 200%;
+    height: 0.75em;
+    margin: 0 -200% 0 0;
+    background: url(../images/bg-heading.png);
+    
+}
+.sidebar h2{text-transform: uppercase;}
+.resumes-content .text-box h2:after{background: none;}
+.popular-job-caregries .holder h4 {text-transform: uppercase;}
+a.a:hover,a:focus,a:active {outline: 0;}
+.check-box #tnc-error{
+position: absolute;color: #a94442;	
+margin-top: 20px;
+}
+/* iframe viewer */
+
+#pdf{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: 0px;
+}
+.modal-content{
+	width:100%;
+	border-radius: 0px;
+	border: 0px;
+}
+.modal-header {
+    padding: 15px;
+    border-bottom: 0px solid #e5e5e5;
+}
+.tabs-left, .tabs-right {
+  border-bottom: none;
+  padding-top: 2px;
+}
+.tabs-left {
+  border-right: 1px solid #ddd;
+}
+.tabs-right {
+  border-left: 1px solid #ddd;
+}
+.tabs-left>li, .tabs-right>li {
+  float: none;
+  margin-bottom: 2px;
+}
+.tabs-left>li {
+  margin-right: -1px;
+}
+.tabs-right>li {
+  margin-left: -1px;
+}
+.tabs-left>li.active>a,
+.tabs-left>li.active>a:hover,
+.tabs-left>li.active>a:focus {
+  border-bottom-color: #ddd;
+  border-right-color: transparent;
+}
+
+.tabs-right>li.active>a,
+.tabs-right>li.active>a:hover,
+.tabs-right>li.active>a:focus {
+  border-bottom: 1px solid #ddd;
+  border-left-color: transparent;
+}
+.tabs-left>li>a {
+  border-radius: 4px 0 0 4px;
+  margin-right: 0;
+  display:block;
+}
+.tabs-right>li>a {
+  border-radius: 0 4px 4px 0;
+  margin-right: 0;
+}
+.tabs-left>li>a>img{
+	max-width:100%;
+	width: 100% !important;
+	margin: 0px; padding: 0px;
+}
+.pdfobject-container {
+	width: 100%;
+	height: 600px;
+	margin: 2em 0;
+}
+iframe{
+	margin: 0px auto;
+}
+/*.modal-dialog {
+	width: 100%;
+}
+@media (min-width: 768px) {
+	
+}*/
+.feedback-form.feedback-form-user{
+	display: none;
+}
+.feedback-form.feedback-form-user fieldset{
+	text-align: center;
+	font: 500 15px/18px 'Lato', sans-serif;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin: 0px 0 10px 0;
+    padding: 10px 10px 10px 20px;
+    
+}
+.feedback-form.feedback-form-user .checkbox{
+	display: inline-block;
+}
+.feedback-form.feedback-form-user .checkboxArea, .feedback-form.feedback-form-user .checkboxAreaChecked{
+	margin-right: 0px;
+	cursor: pointer;
+}
+.feedback-form.feedback-form-user .checkbox label{
+	padding-left: 0px;
+}
+.feedback-form.feedback-form-user label{
+	font-size: 13px;
+}
+
+.feedback-form.feedback-form-user label span{
+padding-left:5px;
+margin-right: 10px;
+font-size: 12px;
+font-weight: normal;
+/*font-size: 11px;*/
+cursor: pointer;	
+}
+#content-area .box.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+#content-area .alert-danger,#content-area .alert-danger:hover {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.label-primary,
+.badge-primary {
+  background-color: #33414e;
+}
+.label-success,
+.badge-success {
+  background-color: #95b75d;
+}
+.label-info,
+.badge-info {
+  background-color: #3fbae4;
+}
+.label-warning,
+.badge-warning {
+  background-color: #fea223;
+}
+.label-danger,
+.badge-danger {
+  background-color: #b64645;
+}
+.panel-form{display: none;}
+.panel-form,.panel-skip{
+background: none;
+border: none;
+box-shadow: none;	
+text-align: center;
+}
+.loader{display: none;}
+#register{}
+#register select[name="catgory"]{
+	height: 42px;
+}
+#register select[name="catgory"] option:first-child{
+	color: #ccc;
+}
+#register #category-error{
+	margin-top: 10px;
+}
+
+.dropdown-menu {z-index: 2000;}
+.pdf-canvas{
+width: 100%;	
+}
+audio{ width: calc(100% + 30px); /* Adjust as needed */
+overflow:hidden;
+}
+ 
